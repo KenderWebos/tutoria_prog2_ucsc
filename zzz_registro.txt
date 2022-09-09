@@ -1,0 +1,14 @@
+Tutoria 1
+> presentacion
+> hacer el grupo de wsp
+> presentar la biblia
+> pasarles el github
+> repasar lo basico
+> resolver el ejercicio de arrays
+https://www.beecrowd.com.br/judge/es/problems/view/1042
+
+Tutoria 2
+...
+
+Tutoria 3
+...
