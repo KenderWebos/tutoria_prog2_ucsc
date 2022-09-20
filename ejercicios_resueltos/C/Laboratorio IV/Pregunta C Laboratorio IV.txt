@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+#include <sstream>
+using namespace std;
+int main(){
+    int N;
+	int A,B,aux1,aux2;
+    string a,b,c;
+    cin >> N;
+    for (int i = 0; i < N; i++){
+        cin >> A >> B;
+        stringstream sstream,sstream1;
+    	sstream << A;
+        sstream1 << B;
+		a=sstream.str();
+        b=sstream1.str();
+        if(a.length()>=b.length()){
+            aux1=a.length()-b.length();
+            aux2=b.length();
+            c=a.substr(aux1, aux2);
+            if(c==b){
+                cout <<"encaixa"<<endl;
+            }else{
+                cout <<"nao encaixa"<<endl;
+            }
+        }else{
+            cout <<"nao encaixa"<<endl;
+        }
+    }
+}

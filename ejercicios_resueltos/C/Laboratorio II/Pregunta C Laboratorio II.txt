@@ -1,0 +1,29 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int a,b,k,n,m,x,y;
+cin >> k;
+while(k!=0){
+	cin >> n >> m;
+	for(int i=0;i<k;i++){
+		cin >> x >> y;
+		a=abs(x-n);
+		b=abs(y-m);
+		if(a+b==0){
+			cout<<"divisa\n";
+		}else if(a==0||b==0){
+			cout<<"divisa\n";
+		}else if(x>n&&y>m){
+			cout<<"NE\n";
+		}else if(x<n&&y>m){
+			cout<<"NO\n";
+		}else if(x<n&&y<m){
+			cout<<"SO\n";
+		}else{
+			cout<<"SE\n";
+		}
+	}
+	cin >> k;
+	}
+}	

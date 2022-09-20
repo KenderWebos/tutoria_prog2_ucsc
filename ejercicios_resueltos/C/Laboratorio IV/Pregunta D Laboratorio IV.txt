@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){
+    int N;
+    cin >> N;
+    while(N!=0){
+        int a=0;
+        struct str{
+            string s;
+        };
+        str tabla[100];
+        
+        for(int i=0 ; i<N ; i++){
+            cin >> tabla[i].s;
+            if(a<tabla[i].s.length())a=tabla[i].s.length();
+        }
+        for(int i=0 ; i<N ; i++){
+            for(int j=0 ; j<a-tabla[i].s.length() ; j++) cout << " ";
+            cout << tabla[i].s << endl;
+        }
+        cin >> N;
+        if(N!=0){
+            cout << endl;
+        }
+    }
+}

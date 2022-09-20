@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+   float a,b;
+   int c;
+   cin >> a;
+   if(-1<a && a<400.01){
+   	b=a*0.15;
+   	c=15;
+   }else if(400<a && a<800.01){
+   	b=a*0.12;
+   	c=12;
+   }else if(800<a && a<1200.01){
+   	b=a*0.1;
+   	c=10;
+   }else if(1200<a && a<2000.01){
+   	b=a*0.07;
+   	c=7;
+   }else{
+   	b=a*0.04;
+   	c=4;
+   }
+   printf("Novo salario: %.2f\n",a+b);
+   printf("Reajuste ganho: %.2f\n",b); 
+   cout << "Em percentual: " << c <<" %\n";
+}

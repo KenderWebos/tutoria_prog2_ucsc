@@ -1,0 +1,30 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+float Numero;
+int a,N,V[11]={10000,5000,2000,1000,500,200,100,50,25,10,5};
+cin >> Numero;
+Numero = Numero*100;
+N=round(Numero);
+for(int i=0;i<11;i++){
+	a=N%V[i];
+	V[i]=N/V[i];
+	N=a;
+}
+cout <<"NOTAS:\n";
+cout << V[0] << " nota(s) de R$ 100.00\n";
+cout << V[1] << " nota(s) de R$ 50.00\n";
+cout << V[2] << " nota(s) de R$ 20.00\n";
+cout << V[3] << " nota(s) de R$ 10.00\n";
+cout << V[4] << " nota(s) de R$ 5.00\n";
+cout << V[5] << " nota(s) de R$ 2.00\n";
+cout <<"MOEDAS:\n";
+cout << V[6] << " moeda(s) de R$ 1.00\n";
+cout << V[7] << " moeda(s) de R$ 0.50\n";
+cout << V[8] << " moeda(s) de R$ 0.25\n";
+cout << V[9] << " moeda(s) de R$ 0.10\n";
+cout << V[10] << " moeda(s) de R$ 0.05\n";
+cout << N << " moeda(s) de R$ 0.01\n";
+	return 0;	
+}
