@@ -13,9 +13,17 @@ Tutoria 2
 > preguntar por alguna duda en particular
 > revisar ejercicios de competencias pasadas
 > https://www.beecrowd.com.br/judge/es/problems/view/1179
-> https://www.beecrowd.com.br/judge/es/problems/view/1240
-> https://www.beecrowd.com.br/judge/es/problems/view/2060
 
 Tutoria 3
 > preguntar por alguna duda en particular
 > revisar ejercicios de competencias pasadas
+> https://www.beecrowd.com.br/judge/es/problems/view/1240
+> https://www.beecrowd.com.br/judge/es/problems/view/2060
+
+Tutoria 4
+> preguntar por alguna duda en particular
+> ver map() y lambda x:x+x
+> random in arrays
+> estructuras de datos en python
+> paso de variables a funcion (args*)
+> revisar busqueda completa
