@@ -27,3 +27,7 @@ Tutoria 4
 > estructuras de datos en python
 > paso de variables a funcion (args*)
 > revisar busqueda completa
+
+Tutoria 5
+> https://www.w3schools.com/python/exercise.asp?filename=exercise_syntax1
+
