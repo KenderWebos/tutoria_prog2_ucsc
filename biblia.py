@@ -13,7 +13,7 @@ import math
 
 ### 👉 ALMACENAR UNICAMENTE LAS PALABRAS QUE NO SE REPITEN 👀 ###
 
-# palabras = ["Huevos", "Queso", "Lechuga", "Tomate", "Huevos", "Lechuga", "Huevos"]
+# palabras = ["huevos", "Queso", "Lechuga", "Tomate", "Huevos", "Lechuga", "Huevos"]
 
 # palabras = set( palabras )
 
@@ -57,6 +57,8 @@ import math
 
 # palabra = "kenderwebos"
 # print( sum(map(ord, palabra)) )
+
+# print( ord("a") ) # 97
 
 # palabra = "cesar"
 # a = []
