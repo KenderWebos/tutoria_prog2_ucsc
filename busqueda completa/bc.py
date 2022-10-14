@@ -1,4 +1,5 @@
 # https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=666
+
 from functools import reduce
 
 def allDifferent(*args):
