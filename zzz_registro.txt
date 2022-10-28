@@ -31,3 +31,9 @@ Tutoria 4
 Tutoria 5
 > https://www.w3schools.com/python/exercise.asp?filename=exercise_syntax1
 
+Tutoria 6
+> https://www.w3schools.com/python/exercise.asp?filename=exercise_syntax1
+
+Tutoria 6
+> https://ocilabs.cl/estudiantes/avanzado/contenido/33
+
