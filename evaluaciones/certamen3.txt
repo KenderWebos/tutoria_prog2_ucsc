@@ -1,0 +1,5 @@
+Algoritmo 
+prim
+dijkstra
+grafo conexo
+busqueda completa

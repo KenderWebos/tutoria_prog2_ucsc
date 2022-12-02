@@ -37,3 +37,6 @@ Tutoria 6
 Tutoria 6
 > https://ocilabs.cl/estudiantes/avanzado/contenido/33
 
+Tutoria 7
+> Proponer el ejercicio de calculo de interseccion con el eje x
+> https://onlinejudge.org/external/119/11935.pdf
