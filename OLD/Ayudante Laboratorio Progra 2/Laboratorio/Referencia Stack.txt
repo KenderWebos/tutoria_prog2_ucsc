@@ -1,0 +1,39 @@
+Scanner sc = new Scanner(System.in);
+        Stack<Integer> st = new Stack(); // ► Pila (Stack) Generada!!
+        
+        
+        st.push(8); // ► Se agrega un 8 a la pila
+        
+        st.push(10); // ► Se agrega un 10 a la pila
+        
+        st.push(8); // ► Se agrega un 8 a la pila
+        
+        System.out.println( st.peek() ); // ► Se revisa el tope de la pila
+        
+        st.pop(); // ► Quita el elemento al tope de la pila
+        
+        System.out.println( st.search(8) ); 
+        // ► Busca el primer 8 from top to down y retorna su indice en base 1 desde arriva hasta abajo
+        
+        
+        System.out.println( st.empty() ); // ► Pregunta si esta vacia ( True False )
+        
+        Collections.sort(st);
+        
+        
+//        int num = sc.nextInt();
+//        
+//        for (int i = 0; i < num; i++) {
+//            st.push( sc.nextInt() );
+//        }
+//        
+//        System.out.println(st);
+//        
+//        for (int i = 0; i < num; i++) {
+//            
+//            int element = st.pop();
+//            
+//            if (element%2==0) {
+//                System.out.println(element);
+//            }
+//        }
